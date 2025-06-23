@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的音訊播放器</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px; /* 限制播放器最大寬度 */
+            margin-top: 20px;
+        }
+        p {
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>歡迎收聽我的音樂</h1>
+        <audio controls>
+            <source src="https://[你的用戶名].github.io/[你的儲存庫名稱]/你的音訊檔案名稱.mp3" type="audio/mpeg">
+            您的瀏覽器不支援音訊元素。
+        </audio>
+        <p>感謝您的聆聽！</p>
+    </div>
+</body>
+</html>
